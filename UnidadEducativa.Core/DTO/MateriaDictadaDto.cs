@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace UnidadEducativa.Core.DTO
+{
+    public class MateriaDictadaDto
+    {
+        public long Id { get; set; }
+        public string Descripcion { get; set; }
+        public long IdMateria { get; set; }
+        public long IdCurso { get; set; }
+        public long IdProfesor { get; set; }
+        public long IdHorario { get; set; }
+        public long IdPeriodo { get; set; }
+        public long EstadoSql { get; set; }
+    }
+}
